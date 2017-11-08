@@ -73,7 +73,7 @@ def lista_vestibulares(request):
             'title':'Cadastro de vestibulares',
             'vestibulares': Vestibular.objects.all(),
             'year':datetime.now().year,
-            })
+        })
     )
             
  def lista_candidatos(request):
@@ -88,4 +88,3 @@ def lista_vestibulares(request):
             'year':datetime.now().year,
         })
     )
-
