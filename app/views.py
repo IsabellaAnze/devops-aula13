@@ -76,7 +76,7 @@ def lista_vestibulares(request):
         })
     )
             
- def lista_candidatos(request):
+def lista_candidatos(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
